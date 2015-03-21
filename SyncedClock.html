@@ -1,0 +1,14 @@
+<head>
+  <title>SyncedClock</title>
+</head>
+
+<body>
+
+  {{> clock_string}}<br/>
+  {{> clocks}}
+</body>
+
+<template name="clock_string">
+{{time_server}}<br/>
+{{time_offset}}
+</template>
